@@ -259,6 +259,7 @@ const sections: Section[] = [
 const First = () => {
   return (
     <FlashSectionList
+      nestedScrollEnabled
       contentContainerStyle={{backgroundColor: 'white'}}
       estimatedItemSize={100}
       sections={sections}
