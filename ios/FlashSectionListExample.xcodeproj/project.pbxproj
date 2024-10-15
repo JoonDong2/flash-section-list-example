@@ -43,7 +43,7 @@
 		6DDFA7040EB5BD6891499932 /* Pods-FlashSectionListExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashSectionListExample.debug.xcconfig"; path = "Target Support Files/Pods-FlashSectionListExample/Pods-FlashSectionListExample.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FlashSectionListExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B20DA614B594AAA6BB15B8A /* libPods-FlashSectionListExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlashSectionListExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5F9D3C93E02F454AADE1022 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = FlashSectionListExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A5F9D3C93E02F454AADE1022 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = FlashSectionListExample/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		AB3731B7EB9E0CEEE8941AD8 /* Pods-FlashSectionListExample-FlashSectionListExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashSectionListExample-FlashSectionListExampleTests.release.xcconfig"; path = "Target Support Files/Pods-FlashSectionListExample-FlashSectionListExampleTests/Pods-FlashSectionListExample-FlashSectionListExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D0096FCE3558A7D9DA29C392 /* Pods-FlashSectionListExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlashSectionListExample.release.xcconfig"; path = "Target Support Files/Pods-FlashSectionListExample/Pods-FlashSectionListExample.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -472,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77YQUU43T;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = FlashSectionListExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H77YQUU43T;
 				INFOPLIST_FILE = FlashSectionListExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -590,10 +592,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -666,10 +665,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
