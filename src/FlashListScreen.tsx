@@ -235,27 +235,7 @@ const sections: Section[] = [
           }}>
           Carousel 10
         </Text>
-        <Carousel seed={13} />
-      </View>
-    ),
-    type: 'carousel',
-  },
-  {
-    element: (
-      <View style={{marginTop: 20}}>
-        <View
-          style={{height: 10, backgroundColor: 'lightgray', marginBottom: 10}}
-        />
-        <Text
-          style={{
-            fontSize: 20,
-            marginBottom: 5,
-            paddingLeft: 10,
-            color: 'black',
-          }}>
-          Carousel 10
-        </Text>
-        <Carousel seed={13} />
+        <Carousel seed={14} />
       </View>
     ),
     type: 'carousel',
