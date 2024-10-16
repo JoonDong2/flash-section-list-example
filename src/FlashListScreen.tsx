@@ -113,7 +113,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 5
+          Carousel 4
         </Text>
         <Carousel seed={8} />
       </View>
@@ -133,7 +133,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 4
+          Carousel 5
         </Text>
         <Carousel seed={9} />
       </View>
@@ -153,7 +153,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 5
+          Carousel 6
         </Text>
         <Carousel seed={10} />
       </View>
@@ -173,7 +173,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 6
+          Carousel 7
         </Text>
         <Carousel seed={11} />
       </View>
@@ -193,7 +193,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 7
+          Carousel 8
         </Text>
         <Carousel seed={12} />
       </View>
@@ -213,7 +213,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 8
+          Carousel 9
         </Text>
         <Carousel seed={13} />
       </View>
@@ -233,7 +233,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          Carousel 9
+          Carousel 10
         </Text>
         <Carousel seed={13} />
       </View>
