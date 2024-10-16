@@ -113,7 +113,7 @@ const sections: Section[] = [
             paddingLeft: 10,
             color: 'black',
           }}>
-          캐러셀5
+          Carousel 5
         </Text>
         <Carousel seed={8} />
       </View>
