@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@sdcx/nested-scroll": "^0.14.0",
-    "@shopify/flash-list": "^1.6.4",
-    "flash-section-list": "^2.0.6",
+    "@shopify/flash-list": "^1.7.1",
+    "flash-section-list": "^2.1.2",
     "react": "18.3.1",
     "react-native": "0.75.4",
     "react-native-fast-image": "^8.6.3",
